@@ -1,6 +1,6 @@
 # Documenting API query parameters
 
-This file documents query parameters for a fictional company called BugSquisher. BugSquisher makes bug tracking software.
+This file documents API query parameters for a fictional company called BugSquisher. BugSquisher makes bug tracking software.
 
 ## About the BugSquisher API
 
