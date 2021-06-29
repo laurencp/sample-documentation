@@ -1,0 +1,14 @@
+# Documenting API methods and URLs
+
+This file documents API methods and URLs for a fictional application called Phantastic Foto.
+
+# About Phanstastic Foto API
+
+The Phantastic Photo API allows users to share and print photos. The API is based on REST principles and accesses data using HTTP protocol. 
+
+# Requests
+
+The requests available for the Phantastic Foto API are described as follows.
+
+## Retreive an album
+
