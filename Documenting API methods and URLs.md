@@ -12,10 +12,10 @@ The API is based on REST principles and accesses data using HTTP protocol.
 
 The requests available for the Phantastic Foto API are:
 1. [Create an album](#create)
-2. [Retreive an album](#retreive)
-3. [Update an album](#update)
-4. [Delete an album](#delete)
-5. [View all albums](#view-all)
+2. [Update an album](#update)
+3. [Delete an album](#delete)
+4. [Retreive an album](#retreive)
+5. [Retreive a list of all albums](#view-all)
 6. [Print an album](#print)
 
 ## Create an album <a name="create"></a>
@@ -23,14 +23,6 @@ The requests available for the Phantastic Foto API are:
 Creates a collection of images.
 
 POST `https://phantasticfoto.com/api/v1`
-
-## Retreive an album <a name="retreive"></a>
-
-Returns data about a collection of images.
-
-GET `https://phantasticfoto.com/api/v1/album/{album ID}`
-
-where {album ID} is the ID of the album to retreive.
 
 ## Update an album <a name="update"></a>
 
@@ -48,7 +40,15 @@ DELETE `https://phantasticfoto.com/api/v1/album/{album ID}`
 
 where {album ID} is the ID of the album to delete.
 
-## View all albums <a name="view-all"></a>
+## Retreive an album <a name="retreive"></a>
+
+Returns data about a specific collection of images.
+
+GET `https://phantasticfoto.com/api/v1/album/{album ID}`
+
+where {album ID} is the ID of the album to retreive.
+
+## Retreive a list of all albums <a name="view-all"></a>
 
 Returns a list of all of the user's albums.
 
