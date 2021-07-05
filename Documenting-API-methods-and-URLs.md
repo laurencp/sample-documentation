@@ -30,7 +30,7 @@ Makes changes to an existing collection of images.
 
 PUT `https://phantasticfoto.com/api/v1/album/{album ID}`
 
-where {album ID]} is the ID of the album to update.
+where {album ID} is the ID of the album to update.
 
 ### Delete an album <a name="delete"></a>
 
