@@ -13,7 +13,7 @@ The following query parameters are for a request to return a list of bugs. You c
 | Parameter | Description | Type | Required | Notes |
 | ----      | ----        | ---- | ----     | ----  |
 | startDate | The start date for when the bug was created. | Date | Optional | Format is YYYY-MM-DD. The default is the earliest recorded bug. |
-| endDate   | The end date for when the bug was created | Date | Optional | Format is YYYY-MM-DD. The default is today's date. |
+| endDate   | The end date for when the bug was created. | Date | Optional | Format is YYYY-MM-DD. The default is today's date. |
 | priority  | How important the bug is. | Integer | Optional | Value returned is an integer of 1 to 4, where 1 is the highest priority. The default is all priorities. |
 | severity  | How big the impact is. | Integer | Optional | Value returned is an integer of 1 to 4, where 1 is the most severe. The default is all severities. |
 | status    | The status of the bug. | String | Optional | Valid values are: open, closed, duplicate, notabug. Default is all statuses. |
