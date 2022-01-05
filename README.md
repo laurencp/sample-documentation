@@ -1,5 +1,5 @@
 # sample-documentation
-This repository is for my documentation samples.
+This repository is for my sample documentation.
 
 Please explore this repository to see different types of documentation that I am practising and showcasing. 
 
